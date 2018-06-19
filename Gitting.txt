@@ -1,6 +1,19 @@
 Git Bash Commands:
 
+
+$ git config --global user.name "PedCoelho"
+$ git config --global user.email "cabralcoelho@gmail.com"
+
+cd <diretório>
+-acessa a pasta do repositorio-
+git init
+-inicializa o repositorio git
 git status
+-verifica o status do repositorio-
 git branch
-git add <file>
+-verifica o branch atual-
+git add <filename>
+-bota arquivo no stage-
+git add .
+-todos os arquivos da pasta-
 git commit -m "<mensagem descritiva>"
