@@ -1,0 +1,6 @@
+Git Bash Commands:
+
+git status
+git branch
+git add <file>
+git commit -m "<mensagem descritiva>"
