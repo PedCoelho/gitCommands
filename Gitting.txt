@@ -1,5 +1,6 @@
 Git Bash Commands:
 
+GIT HEAD = ONDE VOCÊ ESTÁ NO MOMENTO
 
 $ git config --global user.name "PedCoelho"
 $ git config --global user.email "cabralcoelho@gmail.com"
@@ -10,7 +11,7 @@ git init
 git status
 -verifica o status do repositorio entre stages e commits-
 git branch
--verifica o branch atual-
+-verifica os branches-
 git add <filename>
 -bota arquivo no stage-
 git add .
@@ -30,4 +31,7 @@ git reset --hard
 git checkout -b <nome>
 -cria branch
 
-GIT HEAD = ONDE VOCÊ ESTÁ NO MOMENTO
+git -d <branchName> ou git -D <branchName>
+-deletar ou forçar delete do branch-
+
+git -- help
