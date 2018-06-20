@@ -23,7 +23,9 @@ git checkout <id-do-commit-atual>
 -vai pra outro commit-
 git checkout -- .
 -volta pro commit mais recente-
+
 git reset --hard
+-PESQUISAR!-
 
 git checkout -b <nome>
 -cria branch
