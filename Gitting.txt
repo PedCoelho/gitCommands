@@ -3,7 +3,6 @@ Git Bash Commands:
 
 $ git config --global user.name "PedCoelho"
 $ git config --global user.email "cabralcoelho@gmail.com"
-
 cd <diretório>
 -acessa a pasta do repositorio-
 git init
@@ -17,3 +16,16 @@ git add <filename>
 git add .
 -todos os arquivos da pasta-
 git commit -m "<mensagem descritiva>"
+-salva o estado atual, do que estiver no stage
+git log
+-historico de commits
+git checkout <id-do-commit-atual>
+-vai pra outro commit-
+git checkout -- .
+-volta pro commit mais recente-
+git reset --hard
+
+git checkout -b <nome>
+-cria branch
+
+GIT HEAD = ONDE VOCÊ ESTÁ NO MOMENTO
