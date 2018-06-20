@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: roboto;
+}
+
+.svgContainer{
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.shape{
+  text-align: center;
+  width: 308px ;
+}
+
+
+#boxes{
+  width: 80%;
+  margin:auto;
+  text-align: center;
+}
+
+#btns{
+  padding:20px;
+  margin-bottom: 20px;
+}
+
+#btns button{
+  background: white;
+  padding:5px 10px;
+  border:0;
+}
+
+#btns .fa-pause-circle{
+  color: red;
+}
+#btns .fa-play-circle{
+  color: green;
+}
+
+.box{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.red{background-color: red;}
